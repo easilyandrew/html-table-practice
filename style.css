@@ -1,0 +1,19 @@
+table {
+  border-collapse: collapse;
+}
+
+table th {
+  text-align: left;
+  background: hsl(200, 50%, 35%);
+  color: hsl(0, 0%, 100%);
+  padding: 4px 8px;
+}
+
+table td {
+  border: 1px solid #e3e3e3;
+  padding: 4px 8px;
+}
+
+table tr:nth-child(odd) td {
+  background: hsl(0, 0%, 95%);
+}
